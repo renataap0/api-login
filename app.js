@@ -1,10 +1,11 @@
 const express = require('express');
 const app = express();
+dotenv.config();
 
 app.use(express.json());
 
 //Rotas
-const userRoutes = require('.routes/users');
+const userRoutes = require('./routes/users');
 app.use('/user', userRoutes);
 
 
