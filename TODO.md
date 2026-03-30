@@ -1,1 +1,0 @@
-- [x] Step 3: Test server startup (Server now runs on port 3000)
