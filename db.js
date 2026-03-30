@@ -1,5 +1,6 @@
 const mysql = require('mysql2');
 dotenv.config();
+const dotenv = require('dotenv');
 
 //criar conexão com o banco de dados
 const connnection = mysql.createConnection({
@@ -17,7 +18,7 @@ connnection.connect((err) => {
         console.error('Erro ao conectar ao banco de dados: ', err);
         return;
     } else {
-    console.log('Conexão com o banco de dados estabelecida com sucesso!');
+        console.log('Conexão com o banco de dados estabelecida com sucesso!');
     }
 });
 

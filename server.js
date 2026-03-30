@@ -4,7 +4,7 @@ dotenv.config();
 const port = process.env.PORT;
 
 app.listen(port, () => {
-  console.log(`Servidor rodando em hrrp://localhost: ${port}`);
+    console.log(`Servidor rodando em hrrp://localhost: ${port}`);
 });
 
 module.exports = app;
